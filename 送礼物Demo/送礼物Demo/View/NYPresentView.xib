@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NYPresentView">
+            <rect key="frame" x="0.0" y="0.0" width="220" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ru9-Q9-yZe">
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hashiqi" translatesAutoresizingMaskIntoConstraints="NO" id="rVJ-mm-8FZ">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="nZr-W2-tt6"/>
+                                <constraint firstAttribute="width" constant="40" id="pb1-Ct-jIx"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="送了房子" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAx-xP-uDa">
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="1" green="1" blue="0.11318402031234572" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈士奇" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aur-Ab-y0d">
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="1" green="1" blue="0.11318402029999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.34517590107361962" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="nAx-xP-uDa" secondAttribute="bottom" id="0p9-ye-pc0"/>
+                        <constraint firstAttribute="bottom" secondItem="rVJ-mm-8FZ" secondAttribute="bottom" id="JtS-4G-XrG"/>
+                        <constraint firstItem="rVJ-mm-8FZ" firstAttribute="leading" secondItem="ru9-Q9-yZe" secondAttribute="leading" id="NGf-3A-oOv"/>
+                        <constraint firstItem="nAx-xP-uDa" firstAttribute="leading" secondItem="rVJ-mm-8FZ" secondAttribute="trailing" constant="5" id="U9P-6A-AL9"/>
+                        <constraint firstItem="Aur-Ab-y0d" firstAttribute="leading" secondItem="rVJ-mm-8FZ" secondAttribute="trailing" constant="5" id="adJ-7c-LRR"/>
+                        <constraint firstAttribute="height" constant="40" id="ccC-8i-JbT"/>
+                        <constraint firstItem="Aur-Ab-y0d" firstAttribute="top" secondItem="ru9-Q9-yZe" secondAttribute="top" constant="5" id="gCz-bX-Ozb"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="house" translatesAutoresizingMaskIntoConstraints="NO" id="tS4-fS-hZR">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="khf-i8-0FZ"/>
+                        <constraint firstAttribute="width" constant="55" id="v1M-NR-F2D"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqT-ze-bTt" customClass="NYShakeLabel">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="g8p-GD-NTw"/>
+                        <constraint firstAttribute="height" constant="30" id="zgR-3G-qb6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ru9-Q9-yZe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="DTv-S0-u17"/>
+                <constraint firstItem="lqT-ze-bTt" firstAttribute="leading" secondItem="tS4-fS-hZR" secondAttribute="trailing" constant="5" id="HNX-l1-GI2"/>
+                <constraint firstItem="tS4-fS-hZR" firstAttribute="trailing" secondItem="ru9-Q9-yZe" secondAttribute="trailing" id="OFS-Ce-3Ti"/>
+                <constraint firstAttribute="bottom" secondItem="lqT-ze-bTt" secondAttribute="bottom" constant="30" id="Ptf-wo-uG6"/>
+                <constraint firstAttribute="bottom" secondItem="tS4-fS-hZR" secondAttribute="bottom" id="RuJ-cE-dmP"/>
+                <constraint firstAttribute="trailing" secondItem="ru9-Q9-yZe" secondAttribute="trailing" constant="50" id="ljG-93-Cyq"/>
+                <constraint firstAttribute="bottom" secondItem="ru9-Q9-yZe" secondAttribute="bottom" id="nRp-p3-OSk"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bgView" destination="ru9-Q9-yZe" id="jHv-x2-HAp"/>
+                <outlet property="bottomLabel" destination="nAx-xP-uDa" id="AGa-G5-eqP"/>
+                <outlet property="giftImageView" destination="tS4-fS-hZR" id="nEz-pQ-Ayc"/>
+                <outlet property="headImageView" destination="rVJ-mm-8FZ" id="0HD-lP-oQb"/>
+                <outlet property="nameLabel" destination="Aur-Ab-y0d" id="Je9-2I-yQ3"/>
+                <outlet property="shakeLabel" destination="lqT-ze-bTt" id="gwE-Zz-ga4"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="hashiqi" width="650" height="684"/>
+        <image name="house" width="512" height="512"/>
+    </resources>
+</document>

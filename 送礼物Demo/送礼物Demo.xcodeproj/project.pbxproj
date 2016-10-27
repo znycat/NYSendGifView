@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF6F3E6E1DC1F50500BB58B2 /* NYGiftMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6F3E681DC1F50500BB58B2 /* NYGiftMainView.m */; };
+		FF6F3E6F1DC1F50500BB58B2 /* NYPresentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6F3E6A1DC1F50500BB58B2 /* NYPresentView.m */; };
+		FF6F3E701DC1F50500BB58B2 /* NYPresentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF6F3E6B1DC1F50500BB58B2 /* NYPresentView.xib */; };
+		FF6F3E711DC1F50500BB58B2 /* NYShakeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6F3E6D1DC1F50500BB58B2 /* NYShakeLabel.m */; };
+		FF80B1D61DC0B06300647FE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF80B1D51DC0B06300647FE1 /* main.m */; };
+		FF80B1D91DC0B06300647FE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF80B1D81DC0B06300647FE1 /* AppDelegate.m */; };
+		FF80B1DC1DC0B06300647FE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF80B1DB1DC0B06300647FE1 /* ViewController.m */; };
+		FF80B1DF1DC0B06300647FE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF80B1DD1DC0B06300647FE1 /* Main.storyboard */; };
+		FF80B1E11DC0B06300647FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF80B1E01DC0B06300647FE1 /* Assets.xcassets */; };
+		FF80B1E41DC0B06300647FE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF80B1E21DC0B06300647FE1 /* LaunchScreen.storyboard */; };
+		FF80B1EF1DC0B06300647FE1 /* ___DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF80B1EE1DC0B06300647FE1 /* ___DemoTests.m */; };
+		FF80B1FA1DC0B06300647FE1 /* ___DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF80B1F91DC0B06300647FE1 /* ___DemoUITests.m */; };
+		FF9398371DC189A2001DC6C2 /* NYGiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9398361DC189A2001DC6C2 /* NYGiftModel.m */; };
+		FF9398411DC19F9F001DC6C2 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93983E1DC19F9F001DC6C2 /* Foundation+Log.m */; };
+		FF9398421DC19F9F001DC6C2 /* UIView+NYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9398401DC19F9F001DC6C2 /* UIView+NYExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF80B1EB1DC0B06300647FE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF80B1C91DC0B06300647FE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF80B1D01DC0B06300647FE1;
+			remoteInfo = "送礼物Demo";
+		};
+		FF80B1F61DC0B06300647FE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF80B1C91DC0B06300647FE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF80B1D01DC0B06300647FE1;
+			remoteInfo = "送礼物Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF6F3E671DC1F50500BB58B2 /* NYGiftMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYGiftMainView.h; sourceTree = "<group>"; };
+		FF6F3E681DC1F50500BB58B2 /* NYGiftMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYGiftMainView.m; sourceTree = "<group>"; };
+		FF6F3E691DC1F50500BB58B2 /* NYPresentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYPresentView.h; sourceTree = "<group>"; };
+		FF6F3E6A1DC1F50500BB58B2 /* NYPresentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYPresentView.m; sourceTree = "<group>"; };
+		FF6F3E6B1DC1F50500BB58B2 /* NYPresentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NYPresentView.xib; sourceTree = "<group>"; };
+		FF6F3E6C1DC1F50500BB58B2 /* NYShakeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYShakeLabel.h; sourceTree = "<group>"; };
+		FF6F3E6D1DC1F50500BB58B2 /* NYShakeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYShakeLabel.m; sourceTree = "<group>"; };
+		FF80B1D11DC0B06300647FE1 /* 送礼物Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "送礼物Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF80B1D51DC0B06300647FE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF80B1D71DC0B06300647FE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF80B1D81DC0B06300647FE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF80B1DA1DC0B06300647FE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF80B1DB1DC0B06300647FE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF80B1DE1DC0B06300647FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF80B1E01DC0B06300647FE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF80B1E31DC0B06300647FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF80B1E51DC0B06300647FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF80B1EA1DC0B06300647FE1 /* 送礼物DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "送礼物DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF80B1EE1DC0B06300647FE1 /* ___DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___DemoTests.m"; sourceTree = "<group>"; };
+		FF80B1F01DC0B06300647FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF80B1F51DC0B06300647FE1 /* 送礼物DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "送礼物DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF80B1F91DC0B06300647FE1 /* ___DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___DemoUITests.m"; sourceTree = "<group>"; };
+		FF80B1FB1DC0B06300647FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9398351DC189A2001DC6C2 /* NYGiftModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYGiftModel.h; sourceTree = "<group>"; };
+		FF9398361DC189A2001DC6C2 /* NYGiftModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYGiftModel.m; sourceTree = "<group>"; };
+		FF93983E1DC19F9F001DC6C2 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		FF93983F1DC19F9F001DC6C2 /* UIView+NYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NYExtension.h"; sourceTree = "<group>"; };
+		FF9398401DC19F9F001DC6C2 /* UIView+NYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NYExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF80B1CE1DC0B06300647FE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF80B1E71DC0B06300647FE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF80B1F21DC0B06300647FE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF6F3E661DC1F50500BB58B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF6F3E671DC1F50500BB58B2 /* NYGiftMainView.h */,
+				FF6F3E681DC1F50500BB58B2 /* NYGiftMainView.m */,
+				FF6F3E691DC1F50500BB58B2 /* NYPresentView.h */,
+				FF6F3E6A1DC1F50500BB58B2 /* NYPresentView.m */,
+				FF6F3E6B1DC1F50500BB58B2 /* NYPresentView.xib */,
+				FF6F3E6C1DC1F50500BB58B2 /* NYShakeLabel.h */,
+				FF6F3E6D1DC1F50500BB58B2 /* NYShakeLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF80B1C81DC0B06300647FE1 = {
+			isa = PBXGroup;
+			children = (
+				FF80B1D31DC0B06300647FE1 /* 送礼物Demo */,
+				FF80B1ED1DC0B06300647FE1 /* 送礼物DemoTests */,
+				FF80B1F81DC0B06300647FE1 /* 送礼物DemoUITests */,
+				FF80B1D21DC0B06300647FE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF80B1D21DC0B06300647FE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF80B1D11DC0B06300647FE1 /* 送礼物Demo.app */,
+				FF80B1EA1DC0B06300647FE1 /* 送礼物DemoTests.xctest */,
+				FF80B1F51DC0B06300647FE1 /* 送礼物DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF80B1D31DC0B06300647FE1 /* 送礼物Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FF93983D1DC19F9F001DC6C2 /* Category */,
+				FF6F3E661DC1F50500BB58B2 /* View */,
+				FF9398281DC18990001DC6C2 /* Model */,
+				FF80B1D71DC0B06300647FE1 /* AppDelegate.h */,
+				FF80B1D81DC0B06300647FE1 /* AppDelegate.m */,
+				FF80B1DA1DC0B06300647FE1 /* ViewController.h */,
+				FF80B1DB1DC0B06300647FE1 /* ViewController.m */,
+				FF80B1DD1DC0B06300647FE1 /* Main.storyboard */,
+				FF80B1E01DC0B06300647FE1 /* Assets.xcassets */,
+				FF80B1E21DC0B06300647FE1 /* LaunchScreen.storyboard */,
+				FF80B1E51DC0B06300647FE1 /* Info.plist */,
+				FF80B1D41DC0B06300647FE1 /* Supporting Files */,
+			);
+			path = "送礼物Demo";
+			sourceTree = "<group>";
+		};
+		FF80B1D41DC0B06300647FE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF80B1D51DC0B06300647FE1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF80B1ED1DC0B06300647FE1 /* 送礼物DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF80B1EE1DC0B06300647FE1 /* ___DemoTests.m */,
+				FF80B1F01DC0B06300647FE1 /* Info.plist */,
+			);
+			path = "送礼物DemoTests";
+			sourceTree = "<group>";
+		};
+		FF80B1F81DC0B06300647FE1 /* 送礼物DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF80B1F91DC0B06300647FE1 /* ___DemoUITests.m */,
+				FF80B1FB1DC0B06300647FE1 /* Info.plist */,
+			);
+			path = "送礼物DemoUITests";
+			sourceTree = "<group>";
+		};
+		FF9398281DC18990001DC6C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF9398351DC189A2001DC6C2 /* NYGiftModel.h */,
+				FF9398361DC189A2001DC6C2 /* NYGiftModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF93983D1DC19F9F001DC6C2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FF93983E1DC19F9F001DC6C2 /* Foundation+Log.m */,
+				FF93983F1DC19F9F001DC6C2 /* UIView+NYExtension.h */,
+				FF9398401DC19F9F001DC6C2 /* UIView+NYExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF80B1D01DC0B06300647FE1 /* 送礼物Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF80B1FE1DC0B06300647FE1 /* Build configuration list for PBXNativeTarget "送礼物Demo" */;
+			buildPhases = (
+				FF80B1CD1DC0B06300647FE1 /* Sources */,
+				FF80B1CE1DC0B06300647FE1 /* Frameworks */,
+				FF80B1CF1DC0B06300647FE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "送礼物Demo";
+			productName = "送礼物Demo";
+			productReference = FF80B1D11DC0B06300647FE1 /* 送礼物Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF80B1E91DC0B06300647FE1 /* 送礼物DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF80B2011DC0B06300647FE1 /* Build configuration list for PBXNativeTarget "送礼物DemoTests" */;
+			buildPhases = (
+				FF80B1E61DC0B06300647FE1 /* Sources */,
+				FF80B1E71DC0B06300647FE1 /* Frameworks */,
+				FF80B1E81DC0B06300647FE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF80B1EC1DC0B06300647FE1 /* PBXTargetDependency */,
+			);
+			name = "送礼物DemoTests";
+			productName = "送礼物DemoTests";
+			productReference = FF80B1EA1DC0B06300647FE1 /* 送礼物DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF80B1F41DC0B06300647FE1 /* 送礼物DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF80B2041DC0B06300647FE1 /* Build configuration list for PBXNativeTarget "送礼物DemoUITests" */;
+			buildPhases = (
+				FF80B1F11DC0B06300647FE1 /* Sources */,
+				FF80B1F21DC0B06300647FE1 /* Frameworks */,
+				FF80B1F31DC0B06300647FE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF80B1F71DC0B06300647FE1 /* PBXTargetDependency */,
+			);
+			name = "送礼物DemoUITests";
+			productName = "送礼物DemoUITests";
+			productReference = FF80B1F51DC0B06300647FE1 /* 送礼物DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF80B1C91DC0B06300647FE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = com.znycat.ios;
+				TargetAttributes = {
+					FF80B1D01DC0B06300647FE1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FF80B1E91DC0B06300647FE1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF80B1D01DC0B06300647FE1;
+					};
+					FF80B1F41DC0B06300647FE1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF80B1D01DC0B06300647FE1;
+					};
+				};
+			};
+			buildConfigurationList = FF80B1CC1DC0B06300647FE1 /* Build configuration list for PBXProject "送礼物Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF80B1C81DC0B06300647FE1;
+			productRefGroup = FF80B1D21DC0B06300647FE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF80B1D01DC0B06300647FE1 /* 送礼物Demo */,
+				FF80B1E91DC0B06300647FE1 /* 送礼物DemoTests */,
+				FF80B1F41DC0B06300647FE1 /* 送礼物DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF80B1CF1DC0B06300647FE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF80B1E41DC0B06300647FE1 /* LaunchScreen.storyboard in Resources */,
+				FF6F3E701DC1F50500BB58B2 /* NYPresentView.xib in Resources */,
+				FF80B1E11DC0B06300647FE1 /* Assets.xcassets in Resources */,
+				FF80B1DF1DC0B06300647FE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF80B1E81DC0B06300647FE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF80B1F31DC0B06300647FE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF80B1CD1DC0B06300647FE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF80B1DC1DC0B06300647FE1 /* ViewController.m in Sources */,
+				FF80B1D91DC0B06300647FE1 /* AppDelegate.m in Sources */,
+				FF6F3E711DC1F50500BB58B2 /* NYShakeLabel.m in Sources */,
+				FF6F3E6E1DC1F50500BB58B2 /* NYGiftMainView.m in Sources */,
+				FF9398371DC189A2001DC6C2 /* NYGiftModel.m in Sources */,
+				FF80B1D61DC0B06300647FE1 /* main.m in Sources */,
+				FF6F3E6F1DC1F50500BB58B2 /* NYPresentView.m in Sources */,
+				FF9398421DC19F9F001DC6C2 /* UIView+NYExtension.m in Sources */,
+				FF9398411DC19F9F001DC6C2 /* Foundation+Log.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF80B1E61DC0B06300647FE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF80B1EF1DC0B06300647FE1 /* ___DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF80B1F11DC0B06300647FE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF80B1FA1DC0B06300647FE1 /* ___DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF80B1EC1DC0B06300647FE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF80B1D01DC0B06300647FE1 /* 送礼物Demo */;
+			targetProxy = FF80B1EB1DC0B06300647FE1 /* PBXContainerItemProxy */;
+		};
+		FF80B1F71DC0B06300647FE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF80B1D01DC0B06300647FE1 /* 送礼物Demo */;
+			targetProxy = FF80B1F61DC0B06300647FE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF80B1DD1DC0B06300647FE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF80B1DE1DC0B06300647FE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF80B1E21DC0B06300647FE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF80B1E31DC0B06300647FE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF80B1FC1DC0B06300647FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF80B1FD1DC0B06300647FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF80B1FF1DC0B06300647FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "送礼物Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.znycat.ios.---Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF80B2001DC0B06300647FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "送礼物Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.znycat.ios.---Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF80B2021DC0B06300647FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "送礼物DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.znycat.ios.---DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/送礼物Demo.app/送礼物Demo";
+			};
+			name = Debug;
+		};
+		FF80B2031DC0B06300647FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "送礼物DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.znycat.ios.---DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/送礼物Demo.app/送礼物Demo";
+			};
+			name = Release;
+		};
+		FF80B2051DC0B06300647FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "送礼物DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.znycat.ios.---DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "送礼物Demo";
+			};
+			name = Debug;
+		};
+		FF80B2061DC0B06300647FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "送礼物DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.znycat.ios.---DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "送礼物Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF80B1CC1DC0B06300647FE1 /* Build configuration list for PBXProject "送礼物Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF80B1FC1DC0B06300647FE1 /* Debug */,
+				FF80B1FD1DC0B06300647FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF80B1FE1DC0B06300647FE1 /* Build configuration list for PBXNativeTarget "送礼物Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF80B1FF1DC0B06300647FE1 /* Debug */,
+				FF80B2001DC0B06300647FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF80B2011DC0B06300647FE1 /* Build configuration list for PBXNativeTarget "送礼物DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF80B2021DC0B06300647FE1 /* Debug */,
+				FF80B2031DC0B06300647FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF80B2041DC0B06300647FE1 /* Build configuration list for PBXNativeTarget "送礼物DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF80B2051DC0B06300647FE1 /* Debug */,
+				FF80B2061DC0B06300647FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF80B1C91DC0B06300647FE1 /* Project object */;
+}
