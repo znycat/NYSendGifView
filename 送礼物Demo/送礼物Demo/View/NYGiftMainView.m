@@ -39,7 +39,7 @@
     
     //    是否有
     BOOL hasKey = NO;
-    int index = 0;
+    int index = (int)self.giftModelKeyStrArr.count;  //否则第一次会错误
     for (int i = 0; i<self.giftModelKeyStrArr.count; i++) {
         NSString *str = self.giftModelKeyStrArr[i];
         if ([str isEqualToString:model.giftKeyID]) {
